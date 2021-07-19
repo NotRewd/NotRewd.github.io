@@ -20,6 +20,8 @@
     
     
     
+    
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -138,7 +140,7 @@
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
                 <div class="u-container-layout u-valign-middle u-container-layout-2">
-                  <h4 class="u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Time and beat are definitions that are used to determine when will the event take place. Time is in seconds and it counts upwards from the moment the level started. Beat, on the other hand, relays on beat of the song. You can use only one of those in a single event. It is also not recommended to use them both in a single map.</h4>
+                  <h4 class="u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Time and beat are definitions that are used to determine when will the event take place. Time is in seconds and it counts upwards from the moment the level started. Beat, on the other hand, relays on the beat of the song. You can use only one of those in a single event. It is also not recommended to use them both in a single map.</h4>
                 </div>
               </div>
             </div>
@@ -245,12 +247,16 @@
               <div class="u-align-center u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-1">
                 <div class="u-container-layout u-container-layout-1">
                   <h3 class="u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Splitter</h3>
-                  <h4 class="u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Splitter will split into more parts.</h4>
+                  <h4 class="u-text u-text-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Splitter can split into multiple smaller parts.</h4>
                   <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/splitter.png" alt="" data-image-width="200" data-image-height="200" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
                 </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2"></div>
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                  <h3 class="u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Beam</h3>
+                  <h4 class="u-text u-text-4" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Beam instantly tracks down the player.</h4>
+                  <img class="u-image u-image-default u-preserve-proportions u-image-2" src="images/beam.png" alt="" data-image-width="200" data-image-height="200" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                </div>
               </div>
               <div class="u-align-center u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-3">
                 <div class="u-container-layout u-container-layout-3"></div>
@@ -261,6 +267,68 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-80 u-section-7" id="sec-633c">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">Camera Shake Effect</h2>
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <h4 class="u-text u-text-custom-color-1 u-text-default u-text-2">
+                    <span class="u-text-white">[<br>&nbsp; &nbsp; &nbsp;{
+                    </span>
+                    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-1-base">"time"</span>
+                    <span class="u-text-white">:&nbsp;</span>
+                    <span class="u-text-palette-2-base">1</span>
+                    <span class="u-text-white">,</span>
+                    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-1-base">"type"</span>
+                    <span class="u-text-white">: </span>"effect"<span class="u-text-white">,</span>
+                    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-1-base">"name"</span>
+                    <span class="u-text-white">:</span> "camerashake"<span class="u-text-white"> ,</span>
+                    <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-1-base"> "shakeduration"<span class="u-text-white"> :&nbsp;<span class="u-text-palette-2-base"> 2<span class="u-text-white"> ,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="u-text-grey-70" style="font-style: italic;">(Optional)</span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                    <br>
+                    <span class="u-text-white">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-1-base"> "shakeamount"<span class="u-text-white"> :&nbsp;<span class="u-text-palette-2-base"> 0.1<span class="u-text-white">,&nbsp; &nbsp; &nbsp; &nbsp;<span class="u-text-grey-70" style="font-style: italic;">(Optional)</span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                      <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-text-palette-1-base"> "decreasefactor"<span class="u-text-white"> :&nbsp;<span class="u-text-palette-2-base"> 1&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="font-style: italic;" class="u-text-grey-70">(Optional)</span>
+                          </span>
+                        </span>
+                      </span>
+                      <br>&nbsp; &nbsp; &nbsp;}
+                    </span>
+                    <br>
+                    <span class="u-text-white">]</span>
+                  </h4>
+                </div>
+              </div>
+              <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <h4 class="u-text u-text-3" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">This effect shakes the screen. The&nbsp;<span class="u-text-palette-1-base"> "shakeduration"<span class="u-text-white"> definition is the duration of the shake in seconds. You can also change the intensity in&nbsp;<span class="u-text-palette-1-base"> "shakeamount"<span class="u-text-white"> definition. The&nbsp;<span class="u-text-palette-1-base"> "decreasefactor"&nbsp;<span class="u-text-white"> defines the decreasing factor of the camera shake's duration. You do not need to include optional definitions if you want the default camera shake.</span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-80 u-section-8" id="sec-9d57">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h3 class="u-text u-text-default u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">That's everything for now!</h3>
       </div>
     </section>
     

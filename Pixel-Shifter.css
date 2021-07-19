@@ -65,8 +65,8 @@
 .u-section-2 .u-image-1 {
   min-height: 431px;
   pointer-events: auto;
-  background-image: url("images/Screenshot_1.png");
-  background-position: 0% 50%;
+  background-image: url("images/createfile.png");
+  background-position: 50% 50%;
   animation-duration: 1000ms;
 }
 
@@ -149,7 +149,7 @@
 .u-section-3 .u-image-1 {
   min-height: 431px;
   pointer-events: auto;
-  background-image: url("images/Screenshot_1.png");
+  background-image: url("images/editfile.png");
   background-position: 0% 50%;
   animation-duration: 1000ms;
 }
